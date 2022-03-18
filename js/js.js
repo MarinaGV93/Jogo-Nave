@@ -72,8 +72,6 @@ function start() {
         placar();
         energia();
 	} 
-
-//Função que movimenta o fundo do jogo
 	
 	function movefundo() {
         // Valor atual do fundo da div (fundoGame)
@@ -144,7 +142,7 @@ function start() {
     function disparo() {
 	
         if (podeAtirar == true) {
-            somPerdido.play();
+            somDisparo.play();
             // Para nao realizar um novo tiro enquanto a funcao estiver em execuçao
             podeAtirar = false;
         
